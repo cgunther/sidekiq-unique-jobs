@@ -50,7 +50,7 @@ jobs:
           - 8474:8474
           - 21212:21212
       redis:
-        image: redis:latest
+        image: redis:6.0
         ports:
           - 6379:6379
 
